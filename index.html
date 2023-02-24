@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Labrada:ital,wght@1,300&family=Noto+Sans:wght@500&family=Open+Sans:wght@600&family=Poppins:wght@200;300;400;500&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Site</title>
+</head>
+<body>
+<section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="navlinks" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="textbox">
+        <h1>World's Biggest University</h1>
+        <p>Making website is now one of the easiest thing in the world.You 
+        just need to learn HTML,CSS,<br>Javascript and you are good to go.
+        </p>
+        <a href=""class="button">Visit us to know more</a>
+    </div>
+</section>
+
+<!----course--->
+<section class="course">
+<h1>Courses We Offer</h1>
+<p>We have providing an knowledge based Training Courses.</p>
+<div class="row">
+    <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>We have providing valuable courses like
+            CSE,ECE,Mech,EEE,Civil,Automation,Mettalurgy
+            and so on. placement guaranteed courses also 
+            available.</p>
+        
+    </div>
+    <div class="course-col">
+        <h3>Degree</h3>
+        <p>CSE,ECE,Mech,EEE,Civil,Automation,Mettalurgy.</p>
+    </div>
+    <div class="course-col">
+        <h3>Post Graduation</h3>
+        <p>We have Post Graduation for courses like CSE,ECE,Mech,EEE,Civil,Automation,Mettalurgy.</p>
+    </div>
+</div>
+</section>
+<!---campus-->
+<section class="campus">
+<h1>Our Global Campus</h1>
+<p>We have an eco-friendly campus.The campus contains playground,ecofreindly classroom,etc...</p>
+<div class="row">
+    <div class="campus-col">
+        <img src="images/london.png">
+    <div class="layer">
+        <h3>London</h3>
+    </div>
+    </div>
+    <div class="campus-col">
+        <img src="images/newyork.png">
+    <div class="layer">
+        <h3>New York</h3>
+    </div>
+    </div>
+    <div class="campus-col">
+        <img src="images/washington.png">
+    <div class="layer">
+        <h3>Washington</h3>
+    </div>
+    </div>
+</div>
+</section>
+<!------facilities------>
+<section class="facilities">
+<h1>Our facilities</h1>
+<p>we have playground,lab,library,neat toilet facilities.</p>
+<div class="row">
+    <div class="facilities-col">
+        <img src="images/library.png">
+        <h3>World Class Library</h3>
+        <p>The Reference Books Are Available Here.</p>
+    </div>
+    <div class="facilities-col">
+        <img src="images/basketball.png">
+        <h3>Largest Playground</h3>
+        <p>Many sports areas are Available Here.</p>
+    </div>
+    <div class="facilities-col">
+        <img src="images/cafeteria.png">
+        <h3>Tasty and Healthy food</h3>
+        <p>The Delicious Foods To Taste Are Available Here.</p>
+    </div>
+</div>
+</section>
+
+<!--testimonials-->
+
+<section class="testimonials">
+    <h1>What Our Student Says</h1>
+    <p>This University is the Best in Teaching,Sports,Placements,etc...</p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="images/user1.jpg">
+            <div>
+                <p>This University is very much important for me.I got placed in reputed MNC.Thanks for the University.</p>
+                <h3>Madhu Bala</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/user2.jpg">
+            <div>
+                <p>This University is very much important for me.I got placed in reputed MNC.Thanks for the University.</p>
+                <h3>Aakash Janarthanan</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---Call To Action-->
+
+<section class="cta">
+    <h1>Enroll For Our Various Online Courses<br> Anywhere From The World</h1>
+    <a href="" class="button">Contact Us </a>
+</section>
+
+<!----footer----->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>For Further Information Contact Our Management For Admission and Other Purposes.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-pinterest"></i>
+        <p>Made With<i class="fa fa-heart-o"></i>By Mohanaraman</p>
+        <p>&copy; 2023 ALL RIGHTS RESERVED</p>
+    </div>
+</section>
+<!----Javascript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
